@@ -2,9 +2,9 @@ package org.springformation.solid.principles.examples.composition_ou_heritage.pr
 
 // IMPLEMENTATION DU COMPORTEMENT DE ROULAGE NORMAL
 public class RoulementNormal implements Roulable {
-    InjectionCarburant injectionCarburant;
+    Injectable injectionCarburant;
 
-    public RoulementNormal(InjectionCarburant injectionCarburant) {
+    public RoulementNormal(Injectable injectionCarburant) {
         this.injectionCarburant = injectionCarburant;
     }
     public void rouler() {

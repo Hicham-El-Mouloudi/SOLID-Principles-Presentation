@@ -2,9 +2,9 @@ package org.springformation.solid.principles.examples.composition_ou_heritage.pr
 
 // IMPLEMENTATION DU COMPORTEMENT DE ROULAGE PERFORMANCE
 public class RoulementPerformance implements Roulable{
-    InjectionCarburant injectionCarburant;
+    Injectable injectionCarburant;
 
-    public RoulementPerformance(InjectionCarburant injectionCarburant) {
+    public RoulementPerformance(Injectable injectionCarburant) {
         this.injectionCarburant = injectionCarburant;
     }
     public void rouler() {
